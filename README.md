@@ -22,8 +22,9 @@ This is the backend for an e-commerce site used to retrieve and update data.
   
 
 ## Demonstration
-[Click here for Insomnia Demo](https://drive.google.com/file/d/1lr_xHEFNDcVKVOI8p5VDShs48VNlSzFG/view)
+[Click here for installation demo](https://drive.google.com/file/d/19N0vrjOPn3GmCStli363GAq31KJvfYWD/view)
 
+[Click here for Insomnia Demo](https://drive.google.com/file/d/1lr_xHEFNDcVKVOI8p5VDShs48VNlSzFG/view)
 
 
 
@@ -33,8 +34,12 @@ This application requires the installment of 'dotenv', 'express, 'mysql2', and '
   ```
       npm i
   ```
-
-
+ Create or update an .env file with 
+   ```
+    DB_NAME='ecommerce_db'
+    DB_USER=root
+    DB_PW=
+```
 ## Usage
 After the required dependencies are installed, run the schema.db file in the db folder to initiate the database. Then, open terminal and run the following in the command line:
 
