@@ -16,7 +16,7 @@ This is the backend for an e-commerce site used to retrieve and update data.
 
 
 ## Description
-
+This application is the backend for an e-commerce site used to retrieve and update data. Once connected to the database using Sequelize, and seeded with the schema and seed commands, the database is created and seeded with the test data. From here, ths user can start the application and then use Insomnia to get, put, post, and delete data from the database. 
 
 
   
@@ -56,6 +56,7 @@ In Insomnia, you can then create your get, post, put, and delete commands to tes
 - VS Code
 - Node.js
 - MySQL
+- Sequelize
 - Insomnia
 
 ## Contributions
